@@ -22,7 +22,7 @@ function mc_sample_path(P; init = 1, sample_size = 1000)
     return X
 end
 
-d = Categorical([0,.5,1])
+d = Categorical([0.5, 0.3, 0.2])
 test = rand(d, 20) 
 #probs=support(d)
 prob_dist = pdf.(d, support(d))
