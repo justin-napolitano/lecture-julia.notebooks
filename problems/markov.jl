@@ -22,12 +22,6 @@ function mc_sample_path(P; init = 1, sample_size = 1000)
     return X
 end
 
-d = Categorical([0.5, 0.3, 0.2])
-test = rand(d, 20) 
-#probs=support(d)
-prob_dist = pdf.(d, support(d))
-
-display(prob_dist)
-#P = [0.4 0.6; 0.2 0.8]
-#X = mc_sample_path(P, sample_size = 100_000); # note 100_000 = 100000
-#μ_1 = count(X .== 1)/length(X) # .== broadcasts test for equality. Could use mean(X .== 1)
+P = [0.4 0.6; 0.2 0.8]
+X = mc_sample_path(P, sample_size = 100_000); # note 100_000 = 100000
+μ_1 = count(X .== 1)/length(X) # .== broadcasts test for equality. Could use mean(X .== 1)
