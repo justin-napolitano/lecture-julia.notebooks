@@ -4,7 +4,7 @@ using Distributions, Plots, Printf, QuantEcon, Random
 
 function mc_sample_path(P; init = 1, sample_size = 1000)
 
-    d = Categorical([0.5, 0.3, 0.2]) # 3 discrete states
+
     @assert size(P)[1] == size(P)[2] # square required
     N = size(P)[1] # should be square
 
@@ -22,6 +22,19 @@ function mc_sample_path(P; init = 1, sample_size = 1000)
     return X
 end
 
-P = [0.4 0.6; 0.2 0.8]
-X = mc_sample_path(P, sample_size = 100_000); # note 100_000 = 100000
-μ_1 = count(X .== 1)/length(X) # .== broadcasts test for equality. Could use mean(X .== 1)
+function hard_way() 
+    P = [0.4 0.6; 0.2 0.8]
+    X = mc_sample_path(P, sample_size = 100_000); # note 100_000 = 100000
+    μ_1 = count(X .== 1)/length(X) # .== broadcasts test for equality. Could use mean(X .== 1)
+end
+
+
+
+function easy_way()
+    P = [0.4 0.6; 0.2 0.8];
+    mc = MarkovChain(P)
+    X = simulate(mc, 100_000);
+    μ_2 = count(X .== 1)/length(X) # or mean(x -> x == 1, X)
+end
+
+easy_way()
