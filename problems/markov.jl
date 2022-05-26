@@ -20,8 +20,10 @@ end
 
 d = [0,.5,1]
 test = rand(d, 20) 
-prob_dist = pdf.(d, support(d))
-display(prob_dist)
+probs=support(d)
+#prob_dist = pdf.(d, support(d))
+
+display(probs)
 #P = [0.4 0.6; 0.2 0.8]
 #X = mc_sample_path(P, sample_size = 100_000); # note 100_000 = 100000
 #μ_1 = count(X .== 1)/length(X) # .== broadcasts test for equality. Could use mean(X .== 1)
