@@ -1,12 +1,27 @@
 ---
-slug: "github-lecture-julia.notebooks"
-title: "lecture-julia.notebooks"
-repo: "justin-napolitano/lecture-julia.notebooks"
-githubUrl: "https://github.com/justin-napolitano/lecture-julia.notebooks"
-generatedAt: "2025-11-23T09:12:37.580716Z"
-source: "github-auto"
+slug: github-lecture-julia.notebooks
+title: 'lecture-julia.notebooks: Interactive Julia Notebooks for Quantitative Economics'
+repo: justin-napolitano/lecture-julia.notebooks
+githubUrl: https://github.com/justin-napolitano/lecture-julia.notebooks
+generatedAt: '2025-11-23T09:12:37.580716Z'
+source: github-auto
+summary: >-
+  Collection of Jupyter notebooks using Julia for computational economics, covering dynamic
+  programming, continuous time, and multi-agent models.
+tags:
+  - julia
+  - jupyter
+  - quantitative-economics
+  - computational-economics
+  - dynamic-programming
+  - multi-agent-systems
+seoPrimaryKeyword: lecture-julia.notebooks
+seoSecondaryKeywords:
+  - julia notebooks
+  - quantitative economics
+  - computational economics
+seoOptimized: true
 ---
-
 
 # Technical Overview of lecture-julia.notebooks
 
