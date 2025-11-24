@@ -21,6 +21,13 @@ seoSecondaryKeywords:
   - quantitative economics
   - computational economics
 seoOptimized: true
+topicFamily: datascience
+topicFamilyConfidence: 0.95
+topicFamilyNotes: >-
+  The post centers on interactive Jupyter notebooks using Julia for computational and quantitative
+  economics, involving simulations, dynamic programming, multi-agent models, and leveraging
+  domain-specific packages. This aligns best with the 'Datascience' family focused on data analysis
+  projects, notebooks, simulations, and scientific workflows.
 ---
 
 # Technical Overview of lecture-julia.notebooks
@@ -62,3 +69,4 @@ Maintaining alignment with evolving Julia versions and package updates is critic
 ## Summary
 
 This project exemplifies a practical approach to delivering computational economics education through interactive notebooks powered by Julia. It balances theoretical rigor with computational accessibility, serving as a valuable resource for developers and researchers engaged in quantitative economic modeling.
+
