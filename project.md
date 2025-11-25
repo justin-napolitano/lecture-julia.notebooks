@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/lecture-julia.notebooks
 generatedAt: '2025-11-24T21:35:25.040Z'
 source: github-auto
 summary: >-
-  Explore Jupyter notebooks for quantitative economics using Julia, covering
-  dynamic programming, time series, and more.
+  Explore Jupyter notebooks for quantitative economic modeling using Julia,
+  featuring dynamic programming and time series analysis.
 tags:
   - julia
   - jupyter
@@ -19,11 +19,10 @@ tags:
   - QuantEcon
 seoPrimaryKeyword: jupyter notebooks quantitative economics
 seoSecondaryKeywords:
-  - julia programming
+  - julia programming language
   - interactive notebooks
   - quantitative modeling
   - JupyterLab setup
-  - notebook dependencies
   - cloud-based notebooks
 seoOptimized: true
 topicFamily: null
