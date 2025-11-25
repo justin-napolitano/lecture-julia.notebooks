@@ -1,17 +1,31 @@
 ---
 slug: github-lecture-julia-notebooks
 id: github-lecture-julia-notebooks
-title: lecture-julia.notebooks
+title: Jupyter Notebooks for Quantitative Economics with Julia
 repo: justin-napolitano/lecture-julia.notebooks
 githubUrl: https://github.com/justin-napolitano/lecture-julia.notebooks
 generatedAt: '2025-11-24T21:35:25.040Z'
 source: github-auto
 summary: >-
-  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/QuantEcon/lecture-julia.notebooks/main)
-tags: []
-seoPrimaryKeyword: ''
-seoSecondaryKeywords: []
-seoOptimized: false
+  Explore Jupyter notebooks for quantitative economics using Julia, covering
+  dynamic programming, time series, and more.
+tags:
+  - julia
+  - jupyter
+  - quantitative economics
+  - dynamic programming
+  - time series
+  - Binder
+  - QuantEcon
+seoPrimaryKeyword: jupyter notebooks quantitative economics
+seoSecondaryKeywords:
+  - julia programming
+  - interactive notebooks
+  - quantitative modeling
+  - JupyterLab setup
+  - notebook dependencies
+  - cloud-based notebooks
+seoOptimized: true
 topicFamily: null
 topicFamilyConfidence: null
 kind: project
