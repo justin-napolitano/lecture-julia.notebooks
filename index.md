@@ -1,13 +1,13 @@
 ---
 slug: github-lecture-julia.notebooks
-title: 'lecture-julia.notebooks: Interactive Julia Notebooks for Quantitative Economics'
+title: Overview of Jupyter Notebooks for Quantitative Economics
 repo: justin-napolitano/lecture-julia.notebooks
 githubUrl: https://github.com/justin-napolitano/lecture-julia.notebooks
 generatedAt: '2025-11-23T09:12:37.580716Z'
 source: github-auto
 summary: >-
-  Collection of Jupyter notebooks using Julia for computational economics, covering dynamic
-  programming, continuous time, and multi-agent models.
+  Explore a set of Jupyter notebooks for quantitative economic modeling using
+  Julia, covering dynamic programming and multi-agent systems.
 tags:
   - julia
   - jupyter
@@ -15,19 +15,28 @@ tags:
   - computational-economics
   - dynamic-programming
   - multi-agent-systems
-seoPrimaryKeyword: lecture-julia.notebooks
-seoSecondaryKeywords:
-  - julia notebooks
   - quantitative economics
-  - computational economics
+  - dynamic programming
+  - multi-agent systems
+  - quantEcon
+seoPrimaryKeyword: jupyter notebooks quantitative economics
+seoSecondaryKeywords:
+  - julia programming
+  - economic modeling
+  - interactive learning
+  - computational methods
+  - software engineering in julia
 seoOptimized: true
 topicFamily: datascience
 topicFamilyConfidence: 0.95
 topicFamilyNotes: >-
-  The post centers on interactive Jupyter notebooks using Julia for computational and quantitative
-  economics, involving simulations, dynamic programming, multi-agent models, and leveraging
-  domain-specific packages. This aligns best with the 'Datascience' family focused on data analysis
-  projects, notebooks, simulations, and scientific workflows.
+  The post centers on interactive Jupyter notebooks using Julia for
+  computational and quantitative economics, involving simulations, dynamic
+  programming, multi-agent models, and leveraging domain-specific packages. This
+  aligns best with the 'Datascience' family focused on data analysis projects,
+  notebooks, simulations, and scientific workflows.
+kind: project
+id: github-lecture-julia.notebooks
 ---
 
 # Technical Overview of lecture-julia.notebooks
